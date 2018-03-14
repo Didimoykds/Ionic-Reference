@@ -1,10 +1,15 @@
+import { CheckboxPage } from './../pages/checkbox/checkbox';
+import { CardPage } from './../pages/card/card';
+import { BotoesPage } from './../pages/botoes/botoes';
+import { BadgesPage } from './../pages/badges/badges';
+import { AlertPage } from './../pages/alert/alert';
+import { ActionSheetPage } from './../pages/action-sheet/action-sheet';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { RangePage } from '../pages/range/range';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +27,14 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'ActionSheet', component: ActionSheetPage },
+      { title: 'Alert', component: AlertPage },
+      { title: 'Badges', component: BadgesPage},
+      { title: 'Botoes', component: BotoesPage},
+      { title: 'Cards', component: CardPage},
+      { title: 'Checkbox', component: CheckboxPage},
+      { title: 'Range', component: RangePage}
+      
     ];
 
   }
