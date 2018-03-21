@@ -1,3 +1,4 @@
+import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
 import { FabPage } from './../pages/fab/fab';
@@ -41,7 +42,8 @@ export class MyApp {
       { title: 'DateTime', component: DatetimePage},
       { title: 'Fab', component: FabPage},
       { title: 'Grid', component: GridPage},
-      { title: 'Icones', component: IconPage}
+      { title: 'Icones', component: IconPage},
+      { title: 'Input', component: InputPage}
     ];
 
   }

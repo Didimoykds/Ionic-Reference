@@ -1,3 +1,4 @@
+import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
 import { FabPage } from './../pages/fab/fab';
@@ -32,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DatetimePage,
     FabPage,
     GridPage,
-    IconPage
+    IconPage,
+    InputPage
   ],
   imports: [
     BrowserModule,
@@ -52,7 +54,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DatetimePage,
     FabPage,
     GridPage,
-    IconPage
+    IconPage,
+    InputPage
   ],
   providers: [
     StatusBar,
