@@ -1,3 +1,4 @@
+import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
 import { FabPage } from './../pages/fab/fab';
 import { DatetimePage } from './../pages/datetime/datetime';
@@ -10,7 +11,7 @@ import { AlertPage } from './../pages/alert/alert';
 import { ActionSheetPage } from './../pages/action-sheet/action-sheet';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule, Grid } from 'ionic-angular';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -30,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RangePage,
     DatetimePage,
     FabPage,
-    GridPage
+    GridPage,
+    IconPage
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RangePage,
     DatetimePage,
     FabPage,
-    GridPage
+    GridPage,
+    IconPage
   ],
   providers: [
     StatusBar,

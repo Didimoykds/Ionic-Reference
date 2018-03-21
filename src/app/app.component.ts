@@ -1,3 +1,4 @@
+import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
 import { FabPage } from './../pages/fab/fab';
 import { DatetimePage } from './../pages/datetime/datetime';
@@ -39,7 +40,8 @@ export class MyApp {
       { title: 'Range', component: RangePage},
       { title: 'DateTime', component: DatetimePage},
       { title: 'Fab', component: FabPage},
-      { title: 'Grid', component: GridPage}
+      { title: 'Grid', component: GridPage},
+      { title: 'Icones', component: IconPage}
     ];
 
   }
