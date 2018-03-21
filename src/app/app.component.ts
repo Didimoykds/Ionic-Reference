@@ -1,3 +1,4 @@
+import { DatetimePage } from './../pages/datetime/datetime';
 import { CheckboxPage } from './../pages/checkbox/checkbox';
 import { CardPage } from './../pages/card/card';
 import { BotoesPage } from './../pages/botoes/botoes';
@@ -33,7 +34,8 @@ export class MyApp {
       { title: 'Botoes', component: BotoesPage},
       { title: 'Cards', component: CardPage},
       { title: 'Checkbox', component: CheckboxPage},
-      { title: 'Range', component: RangePage}
+      { title: 'Range', component: RangePage},
+      { title: 'DateTime', component: DatetimePage}
       
     ];
 
@@ -51,6 +53,6 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    this.nav.push(page.component);
   }
 }

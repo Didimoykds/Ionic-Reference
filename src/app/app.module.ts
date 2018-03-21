@@ -1,3 +1,4 @@
+import { DatetimePage } from './../pages/datetime/datetime';
 import { RangePage } from './../pages/range/range';
 import { CheckboxPage } from './../pages/checkbox/checkbox';
 import { CardPage } from './../pages/card/card';
@@ -24,7 +25,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BotoesPage,
     CardPage,
     CheckboxPage,
-    RangePage
+    RangePage,
+    DatetimePage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BotoesPage,
     CardPage,
     CheckboxPage,
-    RangePage
+    RangePage,
+    DatetimePage
   ],
   providers: [
     StatusBar,
