@@ -1,3 +1,4 @@
+import { GridPage } from './../pages/grid/grid';
 import { FabPage } from './../pages/fab/fab';
 import { DatetimePage } from './../pages/datetime/datetime';
 import { CheckboxPage } from './../pages/checkbox/checkbox';
@@ -37,8 +38,8 @@ export class MyApp {
       { title: 'Checkbox', component: CheckboxPage},
       { title: 'Range', component: RangePage},
       { title: 'DateTime', component: DatetimePage},
-      { title: 'Fab', component: FabPage}
-      
+      { title: 'Fab', component: FabPage},
+      { title: 'Grid', component: GridPage}
     ];
 
   }
