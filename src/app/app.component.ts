@@ -1,3 +1,4 @@
+import { ListPage } from './../pages/list/list';
 import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
@@ -35,7 +36,7 @@ export class MyApp {
       { title: 'ActionSheet', component: ActionSheetPage },
       { title: 'Alert', component: AlertPage },
       { title: 'Badges', component: BadgesPage},
-      { title: 'Botoes', component: BotoesPage},
+      { title: 'Buttons', component: BotoesPage},
       { title: 'Cards', component: CardPage},
       { title: 'Checkbox', component: CheckboxPage},
       { title: 'Range', component: RangePage},
@@ -43,7 +44,8 @@ export class MyApp {
       { title: 'Fab', component: FabPage},
       { title: 'Grid', component: GridPage},
       { title: 'Icones', component: IconPage},
-      { title: 'Input', component: InputPage}
+      { title: 'Input', component: InputPage},
+      { title: 'List', component: ListPage}
     ];
 
   }

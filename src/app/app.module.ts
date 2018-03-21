@@ -1,3 +1,4 @@
+import { ListPage } from './../pages/list/list';
 import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
 import { GridPage } from './../pages/grid/grid';
@@ -34,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FabPage,
     GridPage,
     IconPage,
-    InputPage
+    InputPage,
+    ListPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +57,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FabPage,
     GridPage,
     IconPage,
-    InputPage
+    InputPage,
+    ListPage
   ],
   providers: [
     StatusBar,
