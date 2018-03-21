@@ -1,3 +1,4 @@
+import { FabPage } from './../pages/fab/fab';
 import { DatetimePage } from './../pages/datetime/datetime';
 import { CheckboxPage } from './../pages/checkbox/checkbox';
 import { CardPage } from './../pages/card/card';
@@ -35,7 +36,8 @@ export class MyApp {
       { title: 'Cards', component: CardPage},
       { title: 'Checkbox', component: CheckboxPage},
       { title: 'Range', component: RangePage},
-      { title: 'DateTime', component: DatetimePage}
+      { title: 'DateTime', component: DatetimePage},
+      { title: 'Fab', component: FabPage}
       
     ];
 
