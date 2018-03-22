@@ -8,8 +8,9 @@
 
 
 <ion-content padding>
-
+  
   <ion-list>
+    <ion-list-header>Frutas</ion-list-header>
     <ion-item *ngFor="let item of itens">
       {{item}} 
       <ion-icon name="add-circle" color="primary" (click)= "adicionarItem(item)"></ion-icon> 
@@ -18,7 +19,52 @@
   </ion-list>
 
   <ion-list no-lines>
-    <ion-item *ngFor="let item of itens">{{item}} : {{this.cart.products[item]}}</ion-item>
+    <ion-item *ngFor="let item of itens"><ion-icon style="color:green" name="leaf"></ion-icon> {{item}} : {{this.cart.products[item]}}</ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>Lista com Avatar</ion-list-header>
+    <ion-item *ngFor="let item of itens">
+      <ion-avatar item-start>
+        <img src="https://www.inbenta.com/wp-content/themes/inbenta/img/icons/avatar.svg?ver=2">
+      </ion-avatar>
+      <h2>{{ item }}</h2>
+      <p>Esta fruta é saudável!</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>Lista com Sliding</ion-list-header>
+    <ion-item-sliding #item>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="https://www.inbenta.com/wp-content/themes/inbenta/img/icons/avatar.svg?ver=2">
+        </ion-avatar>
+        <h2>{{ item }}</h2>
+        <p>Esta fruta é saudável!</p>
+      </ion-item>
+
+      <ion-item-options side="left">
+        <button ion-button (click)="favorite(item)">Favorite</button>
+        <button ion-button color="danger" (click)="share(item)">Share</button>
+      </ion-item-options>
+
+      <ion-item-options side="right">
+        <button ion-button>Algum valor!</button>        
+        <button ion-button (click)="unread(item)">Unread</button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="https://www.inbenta.com/wp-content/themes/inbenta/img/icons/avatar.svg?ver=2">
+        </ion-thumbnail>
+        <h2>Xiconizio</h2>
+        <p>Desenvolvedor</p>
+        <button ion-button clear item-end>Curtir</button>
+      </ion-item>
+    </ion-list>
   </ion-list>
 
 </ion-content>
