@@ -1,3 +1,5 @@
+import { LoadingPage } from './../pages/loading/loading';
+import { TogglePage } from './../pages/toggle/toggle';
 import { ListPage } from './../pages/list/list';
 import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
@@ -45,7 +47,10 @@ export class MyApp {
       { title: 'Grid', component: GridPage},
       { title: 'Icones', component: IconPage},
       { title: 'Input', component: InputPage},
-      { title: 'List', component: ListPage}
+      { title: 'List', component: ListPage},
+      { title: 'Toggle', component: TogglePage},
+      { title: 'Loading', component: LoadingPage}
+      
     ];
 
   }

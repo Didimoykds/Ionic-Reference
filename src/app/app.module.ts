@@ -1,3 +1,5 @@
+import { LoadingPage } from './../pages/loading/loading';
+import { TogglePage } from './../pages/toggle/toggle';
 import { ListPage } from './../pages/list/list';
 import { InputPage } from './../pages/input/input';
 import { IconPage } from './../pages/icon/icon';
@@ -36,7 +38,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GridPage,
     IconPage,
     InputPage,
-    ListPage
+    ListPage,
+    TogglePage,
+    LoadingPage
   ],
   imports: [
     BrowserModule,
@@ -58,7 +62,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GridPage,
     IconPage,
     InputPage,
-    ListPage
+    ListPage,
+    TogglePage,
+    LoadingPage
   ],
   providers: [
     StatusBar,
