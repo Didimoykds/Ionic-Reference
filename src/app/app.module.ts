@@ -1,3 +1,4 @@
+import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
 import { TogglePage } from './../pages/toggle/toggle';
 import { ListPage } from './../pages/list/list';
@@ -40,7 +41,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InputPage,
     ListPage,
     TogglePage,
-    LoadingPage
+    LoadingPage,
+    ToastPage
   ],
   imports: [
     BrowserModule,
@@ -64,7 +66,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InputPage,
     ListPage,
     TogglePage,
-    LoadingPage
+    LoadingPage,
+    ToastPage
   ],
   providers: [
     StatusBar,

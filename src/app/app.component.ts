@@ -1,3 +1,4 @@
+import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
 import { TogglePage } from './../pages/toggle/toggle';
 import { ListPage } from './../pages/list/list';
@@ -49,7 +50,8 @@ export class MyApp {
       { title: 'Input', component: InputPage},
       { title: 'List', component: ListPage},
       { title: 'Toggle', component: TogglePage},
-      { title: 'Loading', component: LoadingPage}
+      { title: 'Loading', component: LoadingPage},
+      { title: 'Toast', component: ToastPage}
       
     ];
 
