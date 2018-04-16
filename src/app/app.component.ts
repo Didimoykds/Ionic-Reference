@@ -1,3 +1,4 @@
+import { ToolbarPage } from './../pages/toolbar/toolbar';
 import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
 import { TogglePage } from './../pages/toggle/toggle';
@@ -14,7 +15,7 @@ import { BadgesPage } from './../pages/badges/badges';
 import { AlertPage } from './../pages/alert/alert';
 import { ActionSheetPage } from './../pages/action-sheet/action-sheet';
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
+import { Nav, Platform, Toolbar } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
@@ -51,7 +52,8 @@ export class MyApp {
       { title: 'List', component: ListPage},
       { title: 'Toggle', component: TogglePage},
       { title: 'Loading', component: LoadingPage},
-      { title: 'Toast', component: ToastPage}
+      { title: 'Toast', component: ToastPage},
+      { title: 'Toolbar', component: ToolbarPage}
       
     ];
 

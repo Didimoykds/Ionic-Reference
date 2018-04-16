@@ -1,3 +1,4 @@
+import { ToolbarPage } from '../pages/toolbar/toolbar';
 import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
 import { TogglePage } from './../pages/toggle/toggle';
@@ -14,6 +15,7 @@ import { BotoesPage } from './../pages/botoes/botoes';
 import { BadgesPage } from './../pages/badges/badges';
 import { AlertPage } from './../pages/alert/alert';
 import { ActionSheetPage } from './../pages/action-sheet/action-sheet';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -42,7 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     TogglePage,
     LoadingPage,
-    ToastPage
+    ToastPage,
+    ToolbarPage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +70,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     TogglePage,
     LoadingPage,
-    ToastPage
+    ToastPage,
+    ToolbarPage
   ],
   providers: [
     StatusBar,
