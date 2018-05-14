@@ -1,3 +1,4 @@
+import { SegmentPage } from './../pages/segment/segment';
 import { ToolbarPage } from './../pages/toolbar/toolbar';
 import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
@@ -53,7 +54,8 @@ export class MyApp {
       { title: 'Toggle', component: TogglePage},
       { title: 'Loading', component: LoadingPage},
       { title: 'Toast', component: ToastPage},
-      { title: 'Toolbar', component: ToolbarPage}
+      { title: 'Toolbar', component: ToolbarPage},
+      { title: 'Segment', component: SegmentPage }
       
     ];
 

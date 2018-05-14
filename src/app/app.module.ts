@@ -1,3 +1,4 @@
+import { SegmentPage } from './../pages/segment/segment';
 import { ToolbarPage } from '../pages/toolbar/toolbar';
 import { ToastPage } from './../pages/toast/toast';
 import { LoadingPage } from './../pages/loading/loading';
@@ -25,6 +26,7 @@ import { HomePage } from '../pages/home/home';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -45,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TogglePage,
     LoadingPage,
     ToastPage,
-    ToolbarPage
+    ToolbarPage,
+    SegmentPage
   ],
   imports: [
     BrowserModule,
@@ -71,7 +74,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TogglePage,
     LoadingPage,
     ToastPage,
-    ToolbarPage
+    ToolbarPage,
+    SegmentPage
   ],
   providers: [
     StatusBar,
